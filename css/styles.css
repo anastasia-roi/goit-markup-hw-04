@@ -64,6 +64,19 @@ p {
 .navigation {
   display: flex;
   gap: 40px;
+  position: relative;
+
+}
+
+.navigation::after{
+  position: absolute;
+  content: '';
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404BBF;
+  bottom: 0;
+  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -114,6 +127,12 @@ p {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+  height: 600px;
 }
 
 .hero-text {
@@ -154,6 +173,7 @@ p {
 
 .features {
   width: calc((100% - 72px) / 4);
+  
 }
 .visually-hidden {
   position: absolute;
@@ -176,6 +196,19 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
+.feature-icon{
+border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+padding: 24px 100px;
+background-color: #F4F4FD;
+margin-bottom: 8px;
+  
+
+}
+
 .feature-name {
   display: block;
 }
@@ -226,6 +259,8 @@ p {
 .teammates {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
+
 }
 
 .teammates > h3 {
