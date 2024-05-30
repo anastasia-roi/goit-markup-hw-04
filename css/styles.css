@@ -260,7 +260,9 @@ margin-bottom: 8px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
-
+  
+  display: block;
+  
 }
 
 .teammates > h3 {
@@ -280,6 +282,25 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.soc-net-link{
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 32px;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ 
+ 
+}
+
+.social-icon{
+  
+ 
 }
 
 .our-portfolio-section {
