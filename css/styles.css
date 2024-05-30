@@ -369,6 +369,9 @@ button {
 }
 .footer-container {
   align-items: baseline;
+  .footer-div{
+    display: flex;
+  }
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
